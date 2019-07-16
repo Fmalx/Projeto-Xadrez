@@ -12,5 +12,10 @@
             this.colunas = colunas;
             pecas = new Peca[linhas, colunas];// inicia a matriz
         }
+
+        public Peca peca(int linha, int coluna)// como a matriz pecas é privada é feito um metodo para que retorne a matriz.
+        {
+            return pecas[linha, coluna];
+        }
     }
 }

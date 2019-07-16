@@ -6,7 +6,7 @@ namespace tabuleiro
         public Posicao posicao { get; set; }//associacao com a classe Posicao. - So pode ser alterada por ela mesma e pelas subClasses
         public Cor cor { get; protected set; }//Possui Cores, do tipo enum. - So pode ser alterada por ela mesma e pelas subClasses
         public int qteMovimentos { get; protected set; }//So pode ser alterada por ela mesma e pelas subClasses
-        public Tabuleiro tab { get; protected }//So pode ser alterada por ela mesma e pelas subClasses
+        public Tabuleiro tab { get; protected set; }//So pode ser alterada por ela mesma e pelas subClasses
 
         public Peca(Posicao posicao, Tabuleiro tab, Cor cor)
         {
