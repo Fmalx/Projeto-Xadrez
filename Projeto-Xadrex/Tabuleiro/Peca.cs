@@ -16,5 +16,10 @@ namespace tabuleiro
             qteMovimentos = 0;// iniciada com 0 pois ela ainda nao possui movimentos
 
         }
+
+        public void incrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
     }
 }
