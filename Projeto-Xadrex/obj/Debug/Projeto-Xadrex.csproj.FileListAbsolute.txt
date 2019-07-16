@@ -1,0 +1,2 @@
+C:\Users\felip_000\OneDrive\Cursos\C#\C#COMPLETO\Exercicios\Projeto-Xadrex\Projeto-Xadrex\obj\Debug\Projeto-Xadrex.csprojAssemblyReference.cache
+C:\Users\felip_000\OneDrive\Cursos\C#\C#COMPLETO\Exercicios\Projeto-Xadrex\Projeto-Xadrex\obj\Debug\Projeto-Xadrex.csproj.CoreCompileInputs.cache
