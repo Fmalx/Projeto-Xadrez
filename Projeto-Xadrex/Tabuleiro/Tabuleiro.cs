@@ -17,5 +17,11 @@
         {
             return pecas[linha, coluna];
         }
+
+        public void colocarPeca(Peca p, Posicao pos)// coloca a peça no tabuleiro
+        {
+            pecas[pos.linha, pos.coluna] = p;
+            p.posicao=pos;
+        }
     }
 }
